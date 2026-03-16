@@ -19,7 +19,7 @@ requirements:
   build:
     - ${{ compiler("fortran") }}
   host:
-    - libgfortran
+    - libgfortran5
 
 tests:
   - script:
